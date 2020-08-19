@@ -1,4 +1,4 @@
-const TwitchPubSub = require("./index");
+const TwitchPubSub = require("twitchpub");
 
 const PubSub = new TwitchPubSub({
   oauth: "OAUTH TOKEN",
