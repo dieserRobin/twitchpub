@@ -46,6 +46,34 @@ console.log(msg);
 
 ```
 
+## Constructor
+
+oauth: OAuth Token (with needed Scopes),
+subscriptions: { topic: TOPIC, channel: channelID }
+
+## Events
+
+#### connected
+
+Called when connected to PubSub.
+
+#### error
+
+Called when a error occurs.
+
+#### message
+
+Called when PubSub sends a message.
+
+#### Functions
+
+#### subscribe
+
+#### Parameters:
+
+- Topic
+- Channel
+
 # License
 
 This Project is licensed under the MIT License, read more in the [License](LICENSE) file.

@@ -1,11 +1,17 @@
 {
   "name": "twitchpub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {},
   "author": "Robin Klein",
   "license": "MIT",
+  "keywords": [
+    "twitch",
+    "twitch pubsub",
+    "pubsub",
+    "channel points"
+  ],
   "dependencies": {
     "websocket": "^1.0.31"
   }
